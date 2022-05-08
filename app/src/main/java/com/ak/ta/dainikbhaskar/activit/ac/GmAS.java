@@ -117,6 +117,7 @@ public class GmAS extends AppCompatActivity {
                 Bundle bundle =  new Bundle();
                 bundle.putString(decodeAS("NRXWCZA="),savUrlAS);
                 navControllerAS.navigate(R.id.weAS,bundle);
+                ooo = true;
             }
 
         } else {
