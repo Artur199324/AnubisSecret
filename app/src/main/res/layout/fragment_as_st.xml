@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bggdss"
+    tools:context=".frg.AsSt">
+
+
+    <ImageView
+        android:id="@+id/images1"
+        android:layout_width="85dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="4dp"
+        android:src="@drawable/ss1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/images2"
+        android:layout_width="85dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/ss1"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/images1"
+        app:layout_constraintStart_toEndOf="@+id/images1"
+        app:layout_constraintTop_toTopOf="@+id/images1" />
+
+    <ImageView
+        android:id="@+id/images3"
+        android:layout_width="85dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/ss1"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/images2"
+        app:layout_constraintStart_toEndOf="@+id/images2"
+        app:layout_constraintTop_toTopOf="@+id/images2"
+        app:layout_constraintVertical_bias="0.576" />
+
+    <ImageView
+        android:id="@+id/images4"
+        android:layout_width="85dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ss1"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/images3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toEndOf="@+id/images3"
+        app:layout_constraintTop_toTopOf="@+id/images3"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

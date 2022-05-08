@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navvas"
+    app:startDestination="@id/asSt">
+
+    <fragment
+        android:id="@+id/gmO"
+        android:name="com.ak.ta.dainikbhaskar.activit.frg.GmO"
+        android:label="fragment_gm_o"
+        tools:layout="@layout/fragment_gm_o" />
+    <fragment
+        android:id="@+id/gmT"
+        android:name="com.ak.ta.dainikbhaskar.activit.frg.GmT"
+        android:label="fragment_gm_t"
+        tools:layout="@layout/fragment_gm_t" />
+    <fragment
+        android:id="@+id/gmTt"
+        android:name="com.ak.ta.dainikbhaskar.activit.frg.GmTt"
+        android:label="fragment_gm_tt"
+        tools:layout="@layout/fragment_gm_tt" />
+    <fragment
+        android:id="@+id/stAs"
+        android:name="com.ak.ta.dainikbhaskar.activit.frg.StAs"
+        android:label="fragment_st_as"
+        tools:layout="@layout/fragment_st_as" >
+        <action
+            android:id="@+id/action_stAs_to_gmO"
+            app:destination="@id/gmO" />
+        <action
+            android:id="@+id/action_stAs_to_gmT"
+            app:destination="@id/gmT" />
+        <action
+            android:id="@+id/action_stAs_to_gmTt"
+            app:destination="@id/gmTt" />
+    </fragment>
+    <fragment
+        android:id="@+id/asSt"
+        android:name="com.ak.ta.dainikbhaskar.activit.frg.AsSt"
+        android:label="fragment_as_st"
+        tools:layout="@layout/fragment_as_st" >
+        <action
+            android:id="@+id/action_asSt_to_stAs"
+            app:destination="@id/stAs" />
+        <action
+            android:id="@+id/action_asSt_to_reconeAD"
+            app:destination="@id/reconeAD" />
+        <action
+            android:id="@+id/action_asSt_to_weAS"
+            app:destination="@id/weAS" />
+    </fragment>
+    <fragment
+        android:id="@+id/reconeAD"
+        android:name="com.ak.ta.dainikbhaskar.activit.frg.ReconeAD"
+        android:label="fragment_recone_a_d"
+        tools:layout="@layout/fragment_recone_a_d" />
+    <fragment
+        android:id="@+id/weAS"
+        android:name="com.ak.ta.dainikbhaskar.activit.frg.WeAS"
+        android:label="fragment_we_a_s"
+        tools:layout="@layout/fragment_we_a_s" />
+</navigation>

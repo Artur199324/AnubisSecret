@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bggdss"
+    tools:context=".frg.ReconeAD">
+
+
+    <TextView
+        android:id="@+id/textViewInt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="592dp"
+        android:background="#B7FBA10D"
+        android:fontFamily="@font/artifika"
+        android:textColor="#F8F7F7"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.widget.Button
+        android:id="@+id/buttonInt"
+        android:layout_width="154dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="24dp"
+        android:background="#B7FBA10D"
+        android:text="OK"
+        android:textColor="#F8F7F7"
+        app:layout_constraintEnd_toEndOf="@+id/textViewInt"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/textViewInt"
+        app:layout_constraintTop_toBottomOf="@+id/textViewInt" />
+</androidx.constraintlayout.widget.ConstraintLayout>

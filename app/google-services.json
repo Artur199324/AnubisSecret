@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "309084530135",
+    "project_id": "anubis-secret-f7a0b",
+    "storage_bucket": "anubis-secret-f7a0b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309084530135:android:bca12639390652332d1792",
+        "android_client_info": {
+          "package_name": "com.ak.ta.dainikbhaskar.activit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309084530135-lflhcg0anfdlc87anul6ja1fuphsvcd0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBirJmEURYYfBzs7QySbOLhCAhj_D_hpsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309084530135-lflhcg0anfdlc87anul6ja1fuphsvcd0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
